@@ -10,7 +10,7 @@ import { MessagesService } from 'src/app/services/messages.service';
 export class MessagesComponent implements OnInit {
 public faTimes=faTimes;
 public message: string ='';
-  constructor(private messageService: MessagesService) { }
+  constructor(public messageService: MessagesService) { }
 
   ngOnInit(): void {
     this.message = this.messageService.message;
