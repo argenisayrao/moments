@@ -24,7 +24,6 @@ export class NewMomentComponent implements OnInit {
 
     formData.append('title', moment.title);
     formData.append('description', moment.description);
-
     if (moment.image) {
       formData.append('image', moment.image);
     }

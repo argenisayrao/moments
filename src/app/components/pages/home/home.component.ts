@@ -22,11 +22,11 @@ export class HomeComponent implements OnInit {
     this.momentService.getMoments().subscribe((items)=>{
       const data = items.data;
       data.map((item)=>{
-        item.createdAt = new Date(item.createdAt!).toLocaleDateString('pt-BR')
+        item.created_at = new Date(item.created_at!).toLocaleDateString('pt-BR');
       });
 
-      this.allMoments = data;
-      this.moments = data;
+      this.allMoments = items.data;
+      this.moments = items.data;
     })
   }
 
