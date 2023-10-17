@@ -1,5 +1,9 @@
 # Moments
 
+This project is based on the playlist https://www.youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw
+It's a type of social network, where you can create, read, update and delete "moments", that is, a complete CRUD, in addition to the comments parts.
+For it to work correctly you need to download the following API https://github.com/matheusbattisti/curso_adonis_api_yt
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
 ## Development server
